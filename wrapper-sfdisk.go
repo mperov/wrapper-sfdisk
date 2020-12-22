@@ -9,9 +9,9 @@ import (
 const nameUtility = "wrapper-disk"
 
 func greet() {
-    fmt.Println(fmt.Sprintf("Welcome to %v!", nameUtility))
+    fmt.Println(fmt.Sprintf("\nWelcome to %v!", nameUtility))
     fmt.Println("Changes which is written on disk can destroy dates on your disk!")
-    fmt.Println("Please, be careful using this utility!")
+    fmt.Println("Please, be careful using this utility!\n")
 }
 
 func usage() {
@@ -19,12 +19,13 @@ func usage() {
 }
 
 func main() {
-    //device := ""
+    deviceName := ""
     if len(os.Args) < 2 {
         usage()
         os.Exit(1)
     } else {
-        //device = os.Args[1]
+        deviceName = os.Args[1]
     }
     greet()
+    fmt.Println(fmt.Sprintf("You choose device - %v", deviceName))
 }
