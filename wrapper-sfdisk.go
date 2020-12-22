@@ -1,6 +1,5 @@
 package main
 
-
 import (
     "fmt"
     "os"
@@ -11,7 +10,7 @@ const nameUtility = "wrapper-disk"
 func greet() {
     fmt.Println(fmt.Sprintf("\nWelcome to %v!", nameUtility))
     fmt.Println("Changes which is written on disk can destroy dates on your disk!")
-    fmt.Println("Please, be careful using this utility!\n")
+    fmt.Println("Please, be careful using this utility!")
 }
 
 func usage() {
@@ -27,5 +26,5 @@ func main() {
         deviceName = os.Args[1]
     }
     greet()
-    fmt.Println(fmt.Sprintf("You choose device - %v", deviceName))
+    fmt.Println(fmt.Sprintf("\nYou choose device - %v", deviceName))
 }
