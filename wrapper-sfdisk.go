@@ -27,6 +27,6 @@ func main() {
         deviceName = os.Args[1]
     }
     greet()
-    fmt.Println(fmt.Sprintf("\nYou choose device - %v", deviceName))
+    fmt.Println(fmt.Sprintf("\nYou choose device - %v\n", deviceName))
     fmt.Println(sfdisk.Run(deviceName))
 }
