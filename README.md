@@ -10,5 +10,5 @@ In addition, `sfdisk` is Linux utility for manipulating partitions on disks.
 ### Requirements
 
 1. Use OS Linux
-2. Install [Golang](https://golang.org/dl/)
+2. Install [Golang](https://golang.org/doc/install)
 3. Install sfdisk, e.g. for Ubuntu `apt install fdisk`
