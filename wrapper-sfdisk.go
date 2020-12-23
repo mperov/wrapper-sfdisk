@@ -3,6 +3,7 @@ package main
 import (
     "fmt"
     "os"
+    "github.com/mperov/wrapper-sfdisk/sfdisk"
 )
 
 const nameUtility = "wrapper-disk"
