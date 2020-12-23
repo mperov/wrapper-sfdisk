@@ -6,3 +6,9 @@
 
 Using this project is allowed to include `sfdisk` in any Go code.
 In addition, `sfdisk` is Linux utility for manipulating partitions on disks.
+
+### Requirements
+
+1. Use OS Linux
+2. Install [Golang](https://golang.org/dl/)
+3. Install sfdisk, e.g. for Ubuntu `apt install fdisk`
