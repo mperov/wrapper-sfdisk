@@ -5,5 +5,6 @@ import (
 )
 
 func Run(deviceName string) string {
-    return exec.Command("/bin/sfdisk", deviceName)
+    exec.Command("/bin/sfdisk", deviceName)
+    return "done"
 }
