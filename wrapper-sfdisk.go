@@ -28,5 +28,5 @@ func main() {
     }
     greet()
     fmt.Println(fmt.Sprintf("\nYou choose device - %v", deviceName))
-    sfdisk.Run(deviceName)
+    fmt.Println(sfdisk.Run(deviceName))
 }
